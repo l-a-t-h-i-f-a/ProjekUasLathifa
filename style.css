@@ -1,0 +1,182 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Verdana;
+}
+.navigasi{
+	background-color: #2D033B;
+	width: 100%;
+	height: 70px;
+	color: white;
+	position: fixed; /*klo digeser netep diatas*/
+}
+.logo{
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 33px;
+}
+.menu{
+	margin-left: 600px;
+	padding-top: 33px;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block; /*biar sejajar*/
+	margin-right: 50px
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.menu ul li a:hover{
+	color: lightskyblue;
+	font-style: italic;
+}
+.banner{
+	background: #810CA8;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	color: white;
+	padding-top: 
+}
+.banner img{
+	height: 150px;
+	width: 100px;
+	border: 4px solid white; /* bikin border*/
+	border-radius: 100px; 
+	margin-top: 100px;
+}
+.banner h1{
+	margin: 10px;
+}
+.banner p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.banner button{
+	margin-top: 60px;
+	padding: 10px;
+	width: 400px;
+	border-radius: 40px;
+	background-color:#DDE6ED; 
+}
+.banner button:hover{
+	background-color: #810CA8;
+	border: 4px solid white;
+	color: white;
+}
+h1 span:before{
+	content: '';
+	animation: gerak infinite 8s ease;
+	transform: translateY(-50%);
+	color: #2D033B;
+	font-size: 30px
+}
+@keyframes gerak{
+	0%{
+		content: 'Namaku Lathifa'
+	}
+	50%{
+		content: 'Aku kuliah di ITS PKU Muhammadiyah Surakarta'
+	}
+	70%{
+		content: 'Aku mengambil jurusan S1 Informatika'
+	}
+	100%{
+		content: 'Semoga kita bisa saling mengenal'
+	}
+}
+.pendidikan{
+	text-align: center;
+	margin :0px auto;
+	margin-top: 130px;
+	color: #4d4d4d;
+	background-color: #E5B8F4;
+}
+.pendidikan h3 p{
+	margin-top: 10px;
+	margin-bottom: 13px;
+	padding : 0px 20px 0px 20px; 
+}
+.pendidikan img{
+	height: 100px;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.boxkiri, .boxtengah, .boxkanan{
+	width: 400px;
+	height: 300px;
+	background-color: #F0F0F0;
+	text-align: center;
+	padding: 30px 30px;
+	margin: 70px 20px 20px 50px;
+	display: inline-block;
+	border-radius: 10px;
+}
+.boxkiri:hover, .boxtengah:hover, .boxkanan:hover{
+	background-color: #E5B8F4;
+}
+.skill{
+	text-align: center;
+	margin :0px auto;
+	margin-top: 50px;
+	color: #4d4d4d;
+	background-color: #E5B8F4;
+}
+.skill h3 p{
+	margin-top: 10px;
+	margin-bottom: 13px;
+	padding : 0px 20px 0px 20px; 
+}
+.skill img{
+	height: 150px;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.boxkiriskill, .boxtengahskill, .boxkananskill{
+	width: 400px;
+	height: 400px;
+	background-color: #F0F0F0;
+	text-align: center;
+	padding: 30px 30px;
+	margin: 70px 20px 20px 50px;
+	display: inline-block;
+	border-radius: 10px;
+}
+.boxkiriskill:hover, .boxtengahskill:hover, .boxkananskill:hover{
+	background-color: #E5B8F4;
+}
+.kontak{
+	text-align: center;
+	margin :0px auto;
+	margin-top: 250px;
+	margin-bottom: 300px;
+}
+.kontak a img{
+	height: 40px;
+	width: 40px;
+}
+.footer{
+	background-color: #C147E9;
+	width: 100%;
+	height: 40px;;
+	text-align:center;
+	padding: 3px;
+	margin: 80px auto 0px;
+}
+.komen{
+	text-align: center;
+	margin :0px auto;
+	margin-top: 250px;
+}
+.komen form{
+	background-color: #F0F0F0;
+	text-align: center;
+	padding: 30px 30px;
+	margin: 70px 20px 20px 50px;
+	border-radius: 10px;
+}
